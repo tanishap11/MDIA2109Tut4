@@ -1,0 +1,21 @@
+.header_button{
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #DAB;
+    margin: 5px;
+}
+
+.header_button:active{
+    background-color: #999;
+    }
+
+.header_button_inner::selection{
+    background: none;
+    color: none;
+    align-items: center;
+    justify-content: center;
+}
+    

@@ -1,0 +1,28 @@
+.header_button{
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header_button:active{
+    background-color: #999;
+}
+
+.header_button_inner::selection{
+    background: none;
+    color: none;
+}
+
+/* .header_button_inner{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+} */
+    

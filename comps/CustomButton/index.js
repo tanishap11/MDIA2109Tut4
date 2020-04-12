@@ -1,20 +1,23 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './cb.css';
 
 
 //made the UI
 const CustomButton = ({text, color, onClick}) => 
-<div style={{backgroundColor:color, boxShadow: "1px 1px 5px" +color}}
-    className="custom_button_box">
+    
+
+    <div style={{backgroundColor:color, boxShadow: "1px 1px 5px" +color}}
+        className="custom_button_box">
 
         <div className="custom_button_box_inner"
             onClick={onClick}>
             {text}
         </div>
-</div>
+    </div>
 
 function ButtonClick(){
-    alert("Clicked");
+    // alert("Clicked");
+    
 }
 
 CustomButton.defaultProps = {

@@ -1,0 +1,36 @@
+.paras{
+    margin: 5% 10% 5% 10%;
+}
+
+.cd{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pic{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+}
+
+img{
+    height: 20%vh;
+    width: 25%;
+}
+
+.insta{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1.5%;
+}
+
+#random{
+    position: relative;
+    left: -100%;
+    transition:left 1s;
+}
+
+

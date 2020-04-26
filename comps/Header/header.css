@@ -1,10 +1,10 @@
 .header_button{
     border-radius: 5px;
-    padding: 10px;
+    padding: 6px;
     font-weight: bolder;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    box-shadow: 1px 1px 5px #DAB;
+    /* color: rgb(0, 0, 0); */
+    /* cursor: pointer; */
+    /* box-shadow: 1px 1px 5px #DAB; */
     margin: 5px;
     justify-content: center;
     align-items: center;
@@ -12,12 +12,12 @@
 }
 
 .header_button:active{
-    background-color: rgb(185, 29, 29);
+    /* background-color: rgb(185, 29, 29); */
 }
 
 .header_button_inner::selection{
-    background: none;
-    color: none;
+    /* background: none;
+    color: none; */
 }
 
 /* .header_button_inner{
